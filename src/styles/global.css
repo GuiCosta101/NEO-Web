@@ -8,7 +8,7 @@
 :root{
     --color-green: #9DFF3A;
 	--color-white: #E5E5E5;
-	--color-gray-1: #999999:
+	--color-gray-1: #999999;
 	--color-gray-2: #4D4D4D;
 	--color-gray-3: #2E2E2E;
 	--color-gray-4: #0F0F0F;
@@ -18,11 +18,11 @@
     --font-size-title-1: 64px;
     --font-size-title-2: 48px;
     --font-size-title-3: 40px;
-    --font-size-subtitle: 28px; 
-    --font-size-buttom: 22px;
-    --font-size-text-1: 20px;
-    --font-size-text-2: 17px;
-    --font-size-caption: 15px; 
+    --font-size-subtitle: 20px; 
+    --font-size-buttom: 18px;
+    --font-size-text-1: 16px;
+    --font-size-text-2: 14px;
+    --font-size-caption: 12px; 
 
     --font-weight-title-1: 700;
 	--font-weight-title-2: 400;
