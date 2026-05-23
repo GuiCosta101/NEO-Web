@@ -1,0 +1,45 @@
+@import url("./global.css");
+
+*{
+    border: 0; /* borda do projeto -> Zerado*/
+    margin: 0;  /* Distância externa -> Zerado*/
+    padding: 0;  /* Espaçamento interno -> Zerado*/
+    box-sizing: border-box;  /* Respeitar largura e altura*/
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.navigation-header li{
+    color: white;
+    list-style: none;
+}
+
+.btn-header{
+    border-radius: 20px;
+    background-color: var(--color-green);
+}
+
+.navigation-header ul{
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-header a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+btn-header a{
+    color: var(--color-white);
+    border-radius: 20px;
+}
+
+btn-header{
+    color: var(--color-white);
+}
