@@ -1,9 +1,44 @@
 @import url("./src/styles/global.css");
 
+<<<<<<< HEAD
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-gray-4);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.faq-logo {
+    background-color: transparent;
+    border: 2px solid var(--color-gray-3);
+    color: var(--color-green);
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+>>>>>>> 1c11367 (feat: Created faq section)
 .faq-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     gap: 60px;
     padding: 62.5px 318px;
     background-color: var(--color-gray-4);
@@ -30,8 +65,18 @@
     font-weight: var(--font-weight-title-2);
     color: var(--color-white);
     gap: 20px;
+=======
+    gap: 20px;
 }
 
+.faq-title {
+    color: var(--color-white);
+    font-size: var(--font-size-title-2);
+    font-family: var();    
+>>>>>>> 1c11367 (feat: Created faq section)
+}
+
+/* TUDO ERRADO */
 .faq-subtitle {
     font-size: 18px;
     font-family: var(--font-family-primary);
