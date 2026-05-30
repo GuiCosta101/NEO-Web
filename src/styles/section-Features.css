@@ -46,6 +46,28 @@
 .breakdown-icons {
     display: flex;
     gap: 36px;
+    border: 1px solid var(--color-gray-1);
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 36px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.breakdown-icons:hover {
+    border-color: var(--color-green);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 255, 0, 0.1);
+    background: linear-gradient(135deg, rgba(0, 255, 0, 0.05), rgba(0, 0, 0, 0));
+}
+
+.breakdown-icons img {
+    transition: transform 0.3s ease;
+}
+
+.breakdown-icons:hover img {
+    transform: scale(1.1);
 }
 
 .breakdown-services {
@@ -55,17 +77,21 @@
     text-align: center;
 }
 
+.breakdown-services h3 {
+    transition: color 0.3s ease;
+}
+
+.breakdown-icons:hover .breakdown-services h3 {
+    color: var(--color-green);
+}
+
 .breakdown-services p {
     width: 338px;
     text-align: center;
     color: var(--color-gray-1);
+    transition: color 0.3s ease;
 }
 
-.breakdown-icons {
-    border: 1px solid var(--color-gray-1);
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 48px 36px;
+.breakdown-icons:hover .breakdown-services p {
+    color: #fff;
 }
