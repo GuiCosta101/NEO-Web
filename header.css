@@ -20,11 +20,6 @@ header{
     list-style: none;
 }
 
-.btn-header{
-    border-radius: 20px;
-    background-color: var(--color-green);
-}
-
 .navigation-header ul{
     display: flex;
     gap: 40px;
@@ -35,11 +30,17 @@ header{
     text-decoration: none;
 }
 
-btn-header a{
-    color: var(--color-white);
-    border-radius: 20px;
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border-radius: 999px;
+    font-weight: 700;
 }
 
-btn-header{
-    color: var(--color-white);
+.btn-try {
+    background: var(--green);
+    color: var(--color-gray-4);
+    box-shadow: var(--color-gray-4);
 }
