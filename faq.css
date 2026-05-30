@@ -1,74 +1,68 @@
 @import url("./src/styles/global.css");
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: var(--color-gray-4);
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.faq-logo {
-    background-color: transparent;
-    border: 2px solid var(--color-green);
-    color: var(--color-green);
-    padding: 8px 16px;
-    border-radius: 20px;
-}
-
 .faq-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 60px;
+    padding: 62.5px 318px;
+    background-color: var(--color-gray-4);
+}
+
+.faq-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.faq-header span {
+    background-color: transparent;
+    border: 2px solid var(--color-gray-3);
+    color: var(--color-green);
+    padding: 8px 16px;
+    border-radius: 24px;
 }
 
 .faq-title {
-    --font-family-primary:"Alexandria", sans-serif;
-    margin-bottom: 20px;
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-title-2);
+    font-weight: var(--font-weight-title-2);
     color: var(--color-white);
+    gap: 20px;
 }
 
 .faq-subtitle {
-    font-size: 16px;
+    font-size: 18px;
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-title-3);
+    width: 644px;
+    text-align: center;
     color: var(--color-gray-1);
-    margin-bottom: 50px;
+    gap: 20px;
 }
 
 .faq-container {
-    width: 100%;
+    width: 792px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 30px;
 }
 
 .faq-item {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-text-1);
+    font-weight: var(--font-weight-title-2);
+    justify-content: space-between;
+    padding: 24px;
     width: 100%;
     border: 1px solid var(--color-gray-2);
     background-color: var(--color-gray-4);
 }
 
-.faq-question {
-    display: flex;
-    justify-content: space-between;
-    padding: 24px;
-}
-
-.faq-question span {
+.faq-item span {
     font-size: 16px;
     color: var(--color-white);
 }
