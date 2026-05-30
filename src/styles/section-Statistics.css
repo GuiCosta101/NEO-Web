@@ -1,25 +1,27 @@
 @import url("./global.css");
 
-/* Section-Breakdown */
-.section-breakdown {
+/* Section-Statistics */
+.section-Statistics {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 60px;
     padding: 60px 0;
-    background-color: #000;
-    color: #fff;
+    background-color: var(--color-gray-4);
     font-family: var(--font-family-primary);
+    color: var(--color-white);
 }
 
-.breakdown-information {
+.Statistics-information{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    width: 704px;
 }
 
-.breakdown-information span {
+.Statistics-information span {
     color: var(--color-green);
     font-size: var(--font-size-text-2);
     padding: 12px 20px;
@@ -27,71 +29,41 @@
     border-radius: 24px;
 }
 
-.breakdown-information h2 {
+.Statistics-information h2{
     font-size: var(--font-size-title-2);
     font-weight: var(--font-weight-title-2);
 }
 
-.breakdown-information p {
+.Statistics-information p{
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-buttom);
+    font-weight: var(--font-weight-subtitle);
     color: var(--color-gray-1);
-    width: 572px;
     text-align: center;
+    width: 644px;
 }
 
-.container-breakdown {
+.container-Statistics{
     display: flex;
+    gap: 72px;
+}
+
+.container-Statistics .Statistics-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 
-.breakdown-icons {
-    display: flex;
-    gap: 36px;
-    border: 1px solid var(--color-gray-1);
-    border-radius: 12px;
-    flex-direction: column;
-    align-items: center;
-    padding: 48px 36px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.breakdown-icons:hover {
-    border-color: var(--color-green);
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 255, 0, 0.1);
-    background: linear-gradient(135deg, rgba(0, 255, 0, 0.05), rgba(0, 0, 0, 0));
-}
-
-.breakdown-icons img {
-    transition: transform 0.3s ease;
-}
-
-.breakdown-icons:hover img {
-    transform: scale(1.1);
-}
-
-.breakdown-services {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    text-align: center;
-}
-
-.breakdown-services h3 {
-    transition: color 0.3s ease;
-}
-
-.breakdown-icons:hover .breakdown-services h3 {
+.Statistics-details h3{
     color: var(--color-green);
+    font-size: var(--font-size-title-2);
+    font-weight: var(--font-weight-title-2);
 }
 
-.breakdown-services p {
-    width: 338px;
-    text-align: center;
+.Statistics-details p{
     color: var(--color-gray-1);
-    transition: color 0.3s ease;
-}
-
-.breakdown-icons:hover .breakdown-services p {
-    color: #fff;
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-subtitle);
+    font-weight: var(--font-weight-subtitle);
 }
