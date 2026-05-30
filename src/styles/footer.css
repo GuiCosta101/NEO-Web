@@ -35,10 +35,17 @@ footer {
 }
 
 .ft-links a {
+    display: inline-block;
     font-size: var(--font-size-text-2);
     font-weight: var(--font-weight-text-2);
     color: var(--color-gray-1);
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.ft-links a:hover {
+    color: var(--color-green);
+    transform: translateX(5px); 
 }
 
 .footer-form-container {
@@ -57,14 +64,27 @@ footer {
     text-align: left;
 }
 
-.footer-form-container input {
-    background-color: var(--color-gray-4);
+.footer-form-container form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.footer-form-container button img {
+.footer-form-container input {
+    background-color: var(--color-gray-4);
+    color: var(--color-white);
+}
+
+.footer-form-container a img {
     padding: 12px;
     background-color: var(--color-green);
     border-radius: 50px;
+    transition: 0.3s;
+}
+
+.footer-form-container img:hover {
+    transform: translateX(5px);
+    box-shadow: 0 0 10px 0 var(--color-white);
 }
 
 .footer-form-container input::placeholder{
