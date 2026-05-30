@@ -84,7 +84,6 @@
 .breakdown-icons:hover .breakdown-services h3 {
     color: var(--color-green);
 }
-
 .breakdown-services p {
     width: 338px;
     text-align: center;
@@ -104,3 +103,4 @@
     align-items: center;
     padding: 48px 36px;
 }
+

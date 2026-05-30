@@ -1,6 +1,7 @@
 @import url("./global.css");
 
 /* Section-Subscribe */
+<<<<<<< HEAD
 .section-subscribe {
     display: flex;
     flex-direction: column;
@@ -48,5 +49,10 @@
     transform: translateY(-2px);
     box-shadow: 0 5px 20px rgba(0, 255, 0, 0.3);
 }
+<<<<<<< HEAD
 
 
+=======
+=======
+>>>>>>> ca9334f (style: Stylization section-breakdown in section-breakdown.css)
+>>>>>>> 4ca2eaa (Resolve conflits merge)
