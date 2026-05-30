@@ -16,7 +16,6 @@
 }
 
 .section-brands img:hover {
-    cursor: pointer;
     transform: translateY(-5px);
 }
 
