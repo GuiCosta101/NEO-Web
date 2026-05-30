@@ -1,0 +1,82 @@
+@import url("./global.css");
+
+/* Main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #000;
+    padding: 60px 0;
+    font-family: var(--font-family-primary);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.main-content .icon-circle{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--color-green);
+    border: 1px solid var(--color-gray-3);
+    border-radius: 24px;
+    padding: 10px 12px;
+    width: 137px;
+}
+
+.main-content .icon-circle span{
+    font-size: var(--font-size-text-2);
+    font-weight: var(--font-weight-text-2);
+    width: 96px;
+}
+
+.main-content h1{
+    color: var(--color-white);
+    font-size: var(--font-size-title-1);
+    font-weight: var(--font-weight-title-1);
+    width: 521px;
+}
+
+.main-content p{
+    font-family: var(--font-family-secondary);
+    color: var(--color-gray-1);
+    font-size: var(--font-size-subtitle);
+    font-weight: var(--font-weight-subtitle);
+    width: 593px;
+}
+
+.container-cta{
+    display: flex;
+    gap: 20px;
+}
+
+.container-cta a{
+    text-decoration: none;
+}
+
+.container-cta .btn-primary{
+    background-color: var(--color-green);
+    color: #000;
+    font-size: var(--font-size-buttom);
+    font-weight: var(--font-weight-button);
+    border-radius: 24px;
+    padding: 14px 24px;
+}
+
+.container-cta .icon-player{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: 1.5px solid var(--color-gray-2);
+    border-radius: 40px;
+    padding: 14px 24px;
+}
+
+.container-cta a{
+    color: var(--color-white);
+}

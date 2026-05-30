@@ -1,0 +1,30 @@
+@import url(./src/styles/global.css);
+
+main{
+    display: flex;
+    background-color: #0F0F0F;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 100px;
+}
+
+h1{
+    color:#E5E5E5;
+    width: 521px;
+}
+.content-main span{
+    color:#9DFF3A ;
+}
+.content-main p{
+    color: #E5E5E5;
+    width: 521px;
+}
+
+.botao1{
+    background-color: var(--color-green);
+    padding: 14px 24px;
+    border-radius: 40px;
+    color: var(--color-gray-4);
+    text-decoration: none;
+}
